@@ -1,0 +1,41 @@
+.header{
+    background-color: rgba(158, 156, 154, 0.416);
+    display: flex ;
+    flex-direction: column;
+    height: 50px;
+
+    /* .icon-page{
+        margin-right: 5px;
+    }
+    .line-page{
+        height: 99%;
+        border-left: solid 1px black ;
+    }
+    .name-page{
+        margin-left: 5px;
+    } */
+    
+    .button-menu{
+        :active{
+            transition-duration: 2s;
+        }
+    }
+
+
+    .open-menu{
+        background-color: bisque;
+        /* :active{
+            background-color: black;
+            transition-duration: 2s;
+        } */
+        
+    }
+
+    .close-menu{
+        :active{
+        height: 0px;
+        /* display: none; */
+        transition: all 1s;
+        }
+    }
+}
